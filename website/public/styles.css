@@ -1,0 +1,49 @@
+body {
+    background-color: white;
+}
+.cen {
+
+}
+
+/* Header */
+header.mhead {
+    padding-top: 10.5rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    color: #fff;
+    background-image: url("img/bg_head.JPG");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+
+}
+.subhead {
+    padding-top: 2rem;
+}
+.subtext {
+    opacity: 60%;
+}
+
+/* Section 1 */
+.page-section {
+    padding: 6rem 0;
+
+}
+.text-sec1 {
+    font-size: 20px;
+}
+
+/* Section2 */
+.text-sec2 {
+    font-size: 20px;
+}
+
+.img-user-sec2 {
+    width: 40%;
+}
+
+/* Section 3 */
+.vdo {
+    margin: 0rem 30%;
+}
