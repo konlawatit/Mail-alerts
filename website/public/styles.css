@@ -28,10 +28,13 @@ header.mhead {
 /* Section 1 */
 .page-section {
     padding: 6rem 0;
-
 }
 .text-sec1 {
     font-size: 20px;
+}
+.img-user-sec1 {
+    width: auto;
+    height: 300px;
 }
 
 /* Section2 */
@@ -40,7 +43,9 @@ header.mhead {
 }
 
 .img-user-sec2 {
-    width: 20vw;
+    width: auto;
+    height: 300px;
+
 }
 
 /* Section 3 */
@@ -60,5 +65,6 @@ header.mhead {
 
 /* Section 6 */
 .img-user-sec6 {
-    width: 80%;
+    height: 290px;
+    width: 289px;
 }
