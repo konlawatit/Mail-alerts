@@ -40,7 +40,7 @@ header.mhead {
 }
 
 .img-user-sec2 {
-    width: 40%;
+    width: 20vw;
 }
 
 /* Section 3 */
@@ -51,4 +51,9 @@ header.mhead {
 /* Section 4 */
 .img-user-sec4 {
     width: 100%;
+}
+.img-user-sec4-3 {
+    height: 265.9cm;
+    width: 200%;
+
 }
