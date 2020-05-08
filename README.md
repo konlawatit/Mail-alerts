@@ -29,7 +29,7 @@
 2.อุปกรณ์ Microcontroller ที่จัดทำสามารถทำงานได้อย่างมีประสิทธิภาพตามความต้องการของวัตถุประสงค์ที่ตั้งไว้ได้<br>
   
   # Poster Present
-<p>Open a Poster <a href="https://drive.google.com/file/d/1NG1mHcyKtFVqGIX6hcOOJy-t-AuuKo_D/view?usp=sharing">Click here</a>.</p>
+![image](https://drive.google.com/uc?export=view&id=1NG1mHcyKtFVqGIX6hcOOJy-t-AuuKo_D)
 
   # Video Present
 <p>Open a Video <a href="https://www.youtube.com/watch?v=zafnbTwlctg&feature=youtu.be&fbclid=IwAR0VJAZ1Ki_FJZ26xLJpZIIhQnCIvvhjBRm12YA3yh7NT3R7EoMEgFLf_vo">Click here</a>.</p>
