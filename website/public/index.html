@@ -11,8 +11,34 @@
     <title>Mail Alerts</title>
 </head>
 <body>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top justify-content-center col-sm-12">
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" href="#home" >Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#about" >About</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#user">User/Objective</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#vdo">VDO</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#equi">Equipment</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#code">Source Code</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#member">Member</a>
+        </li>
+    </ul>
+</nav>
 <!-- Header -->
-<header class="mhead">
+<header id="home" class="mhead">
     <div class="container subhead">
         <h1 class="display-3">Welcome To Our Project</h1>
         <h1 class="display-1 font-weight-bold">Mail Alerts</h1>
@@ -20,10 +46,10 @@
     </div>
 </header>
 <!-- Section 1 -->
-<section class="page-section">
+<section class="page-section" id="about">
     <div class="container">
         <div class="row">
-            <div class="col"><h1 class="text-center mb-5 display-4 font-weight-bold">About</h1></div>
+            <div class="col"><h1 class="text-center mb-5 display-4 font-weight-bold">ABOUT</h1></div>
         </div>
         <div class="row justify-content-center">
             <div class="col-lg-6 d-flex p-5">
@@ -38,12 +64,12 @@
     </div>
 </section>
 <!-- Section 2 -->
-<section class="page-section">
+<section class="page-section" id="user">
     <div class="container-fluid pr-5 pl-5">
         <div class="row">
             <div class="col-md-6">
                 <div class="row justify-content-center">
-                    <h1 class="text-center mb-5 display-4 font-weight-bold">User</h1>
+                    <h1 class="text-center mb-5 display-4 font-weight-bold">USER</h1>
                 </div>
                 <div class="row mb-5 justify-content-center">
                     <img src="img/assets/icon-user-sec2.png" class="mx-auto img-user-sec2">
@@ -57,13 +83,13 @@
             </div>
             <div class="col-md-6">
                 <div class="row justify-content-center">
-                    <h1 class="text-center mb-5 display-4 font-weight-bold">Objective</h1>
+                    <h1 class="text-center mb-5 display-4 font-weight-bold">OBJECTIVE</h1>
                 </div>
                 <div class="row mb-5 justify-content-center">
                     <img src="img/assets/icon-line-sec2.png" class="mx-auto img-user-sec2">
                 </div>
                 <div class="row justify-content-center md-5">
-                    <ul class="text-sec2">
+                    <ul class="text-sec2 p-5">
                         <li>สามารถช่วยเหลือในการแจ้งเตือนจดหมายที่มาส่งในตู้จดหมายผ่าน Application Line ในกรณีที่ไม่ได้อยู่บ้าน หรือติดธุระ</li>
                         <li>สามารถแสดงรายละเอียดของวันและเวลาที่มาส่งในตู้จดหมายผ่านทาง Application Line</li>
                     </ul>
@@ -73,66 +99,68 @@
     </div>
 </section>
 <!-- Section 3 -->
-<section class="page-section">
-    <div class="container justify-content-center">
+<section class="page-section" id="vdo">
+    <div class="container justify-content-center vdo">
         <div class="row">
-            <div class="col"><h1 class="text-center mb-5 display-4 font-weight-bold">VDO</h1></div>
+            <div class="col"><h1 class="text-center mb-5 display-4 font-weight-bold">VIDEO</h1></div>
         </div>
-        <center><iframe width="420" height="315"
-                src="https://www.youtube.com/embed/tgbNymZ7vqY" class="justify-content-center">
-        </iframe></center>
+        <div class="row justify-content-center p-3">
+            <iframe width="860" height="515" src="https://www.youtube.com/embed/zafnbTwlctg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
     </div>
 </section>
 <!-- Section 4 -->
-<section class="page-section">
+<section class="page-section" id="equi">
     <div class="container-fluid pr-5 pl-5">
         <div class="row justify-content-center">
-            <h1 class="font-weight-bold mb-5">Equipment</h1>
+            <h1 class="font-weight-bold mb-5">EQUIPMENT</h1>
         </div>
         <div class="row justify-content-center">
-            <div class="col-sm-3 mb-3">
+            <div class="col-md-3 mb-2">
                 <img src="img/assets/1protobord2-sec4.jpg" class="img-fluid mx-auto img-user-sec4 mb-3">
                 <h2 class="text-center"><small>Protoboard Breadboard 400 holes</small></h2>
             </div>
-            <div class="col-sm-3 mb-3">
+            <div class="col-md-3 mb-2">
                 <img src="img/assets/2jumper-sec4.jpg" class="img-fluid mx-auto img-user-sec4 mb-3">
                 <h2 class="text-center"><small>สายไฟจัมเปอร์ 20cm ผู้-เมีย</small></h2>
             </div>
-            <div class="col-sm-3 mb-3">
+            <div class="col-md-3 mb-2">
                 <img src="img/assets/3NodeMCU2-sec4.png" class="img-fluid mx-auto img-user-sec4-3 mb-3">
                 <h2 class="text-center"><small>NodeMCU V2 LUA based ESP8266-12E</small></h2>
             </div>
-            <div class="col-sm-3 mb-3">
+            <div class="col-md-3 mb-2">
                 <img src="img/assets/4.Sensor2-sec4.png" class="img-fluid mx-auto img-user-sec4 mb-3">
                 <h2 class="text-center"><small>HC-SR04 Sensor Ultrasonic Module Distance</small></h2>
+            </div>
+            <div class="col-md-3 mb-2">
+                <img src="img/assets/usb.png" class="img-fluid mx-auto img-user-sec4 mb-3">
+                <h2 class="text-center"><small>สายจ่ายไฟ Micro USB</small></h2>
             </div>
         </div>
     </div>
 </section>
-
 <!-- Section 5 -->
-<section class="page-section">
+<section class="page-section" id="code">
     <div class="container">
         <div class="row justify-content-center">
-            <h1 class="font-weight-bold mb-5">Source Code</h1>
+            <h1 class="font-weight-bold mb-5">SOURCE CODE</h1>
         </div>
-        <div class="row" style=" height: 500px; overflow: auto;">
-            <script src="https://gist.github.com/konlawatit/15e07059e83a99408af4c1c895e1509e.js"></script>
-        </div>
+        <script style="height: 500px" src="https://gist.github.com/konlawatit/15e07059e83a99408af4c1c895e1509e.js"></script>
     </div>
 </section>
 <!-- Section 6 -->
-<section class="page-section">
+<section class="page-section" id="member">
     <div class="container-fluid pr-5 pl-5">
         <div class="row justify-content-center">
-            <h1 class="font-weight-bold mb-5">Member</h1>
+            <h1 class="font-weight-bold mb-5">MEMBER</h1>
         </div>
         <div class="row justify-content-center">
             <div class="col-md-3 mb-3">
                 <div class="row justify-content-center">
                     <img src="img/assets/1bas2.png" class=" img-user-sec6 mb-3 p-3">
                 </div>
-                <div class="row mb-5">
+                <div class="row mb-5 justify-content-center">
                     <ul class="text-sec2">
                         <li>Name : Konlawat Hutsaithong</li>
                         <li>Student ID: 62070007</li>
@@ -143,7 +171,7 @@
                 <div class="row justify-content-center">
                     <img src="img/assets/2sun.jpg" class="img-user-sec6 mb-3 p-3">
                 </div>
-                <div class="row mb-5">
+                <div class="row mb-5 justify-content-center">
                     <ul class="text-sec2">
                         <li>Name : Thanayut Kunsun</li>
                         <li>Student ID: 62070084</li>
@@ -154,7 +182,7 @@
                 <div class="row justify-content-center">
                     <img src="img/assets/3pob.jpg" class=" img-user-sec6 mb-3 p-3">
                 </div>
-                <div class="row mb-5">
+                <div class="row mb-5 justify-content-center">
                     <ul class="text-sec2">
                         <li>Name : Sirapob Chang</li>
                         <li>Student ID : 62070198</li>
@@ -165,7 +193,7 @@
                 <div class="row justify-content-center">
                     <img src="img/assets/4zone.jpg" class=" img-user-sec6 mb-3 p-3">
                 </div>
-                <div class="row mb-5">
+                <div class="row mb-5 justify-content-center">
                     <ul class="text-sec2">
                         <li>Name : Apisorn Teehor</li>
                         <li>Student ID : 62070218</li>

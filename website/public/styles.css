@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: white;
 }
@@ -50,7 +54,7 @@ header.mhead {
 
 /* Section 3 */
 .vdo {
-    margin: 0rem 30%;
+    margin: 0rem auto;
 }
 
 /* Section 4 */
@@ -63,8 +67,13 @@ header.mhead {
 
 }
 
+.code {
+    margin: 0 auto;
+}
+
 /* Section 6 */
 .img-user-sec6 {
     height: 290px;
     width: 289px;
 }
+
